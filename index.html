@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agora Video Call</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://download.agora.io/sdk/release/AgoraRTC_N.js"></script>
+</head>
+<body>
+  <h1>Agora Video Call (SDK v4)</h1>
+  <div id="video-container">
+    <div id="local-video" class="video-box"></div>
+    <div id="remote-video" class="video-box"></div>
+  </div>
+  <div class="controls">
+    <button onclick="startCall()">Start Call</button>
+    <button onclick="leaveCall()">Leave Call</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
+                          
